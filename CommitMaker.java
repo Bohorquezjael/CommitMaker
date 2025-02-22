@@ -3,8 +3,11 @@ import java.io.IOException;
 
 public class CommitMaker {
     public static void main(String[] args) {
-        final String path = "C:\\Users\\julis\\Documents\\TMCBEANS-Projects\\mooc-java-programming-ii";
-        final String remote = "https://github.com/Bohorquezjael/Java-II-MOOC.git";
+
+        //The root folder should contain sub-folders
+        final String path = "C:\\";
+        //The github repository https
+        final String remote = "";
 
         File dir = new File(path);
         if (!dir.exists() || !dir.isDirectory()) {
